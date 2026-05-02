@@ -9,6 +9,12 @@ const priority = {
   Event: 1,
 };
 
+const typeColors = {
+  Placement: "#22c55e", // green
+  Result: "#3b82f6",    // blue
+  Event: "#f59e0b",     // orange
+};
+
 export default function App() {
   const [data, setData] = useState([]);
 
@@ -32,8 +38,6 @@ export default function App() {
 
         setData(notifications.slice(0, 10));
       } catch (err) {
-        console.log("API failed, using fallback");
-
         setData([
           { ID: 1, Type: "Placement", Message: "Placed at Google", Timestamp: "2026-05-02T09:00:00Z" },
           { ID: 2, Type: "Result", Message: "Result Declared", Timestamp: "2026-05-02T08:00:00Z" },
@@ -45,21 +49,78 @@ export default function App() {
     fetchData();
   }, []);
 
-  return (
-    <div style={{ padding: "20px" }}>
-      <h1>Top 10 Notifications</h1>
+  const formatDate = (ts) =>
+    new Date(ts).toLocaleString();
 
-      {data.map((n) => (
-        <div key={n.ID} style={{
-          border: "1px solid gray",
-          margin: "10px",
-          padding: "10px"
-        }}>
-          <h3>{n.Type}</h3>
-          <p>{n.Message}</p>
-          <small>{n.Timestamp}</small>
-        </div>
-      ))}
+  return (
+    <div style={styles.container}>
+      <h1 style={styles.title}>Top 10 Notifications</h1>
+
+      <div style={styles.list}>
+        {data.map((n) => (
+          <div key={n.ID} style={styles.card}>
+            
+            <div style={styles.header}>
+              <span
+                style={{
+                  ...styles.badge,
+                  backgroundColor: typeColors[n.Type] || "#888",
+                }}
+              >
+                {n.Type}
+              </span>
+            </div>
+
+            <p style={styles.message}>{n.Message}</p>
+
+            <small style={styles.time}>
+              {formatDate(n.Timestamp)}
+            </small>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
+
+const styles = {
+  container: {
+    minHeight: "100vh",
+    background: "#0f172a",
+    color: "#fff",
+    padding: "30px",
+    fontFamily: "Arial",
+  },
+  title: {
+    textAlign: "center",
+    marginBottom: "30px",
+  },
+  list: {
+    maxWidth: "700px",
+    margin: "auto",
+  },
+  card: {
+    background: "#1e293b",
+    padding: "16px",
+    marginBottom: "16px",
+    borderRadius: "10px",
+    transition: "0.2s",
+  },
+  header: {
+    marginBottom: "10px",
+  },
+  badge: {
+    padding: "4px 10px",
+    borderRadius: "6px",
+    fontSize: "12px",
+    fontWeight: "bold",
+  },
+  message: {
+    fontSize: "16px",
+    margin: "10px 0",
+  },
+  time: {
+    color: "#94a3b8",
+    fontSize: "12px",
+  },
+};
