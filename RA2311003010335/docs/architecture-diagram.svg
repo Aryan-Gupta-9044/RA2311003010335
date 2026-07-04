@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#020617"/>
+  <rect x="120" y="140" width="250" height="120" rx="20" fill="#2563eb"/>
+  <rect x="460" y="140" width="250" height="120" rx="20" fill="#10b981"/>
+  <rect x="800" y="140" width="250" height="120" rx="20" fill="#f59e0b"/>
+  <rect x="1140" y="140" width="250" height="120" rx="20" fill="#ef4444"/>
+  <rect x="200" y="360" width="1200" height="320" rx="24" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <text x="220" y="205" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">React UI</text>
+  <text x="500" y="205" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">Express API</text>
+  <text x="840" y="205" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">Workers</text>
+  <text x="1170" y="205" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">Postgres + Redis</text>
+  <text x="300" y="470" fill="#f8fafc" font-size="36" font-family="Segoe UI, Arial, sans-serif">Distributed job scheduler architecture</text>
+  <text x="320" y="525" fill="#94a3b8" font-size="24" font-family="Segoe UI, Arial, sans-serif">Socket.io live updates + atomic claim with SKIP LOCKED</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#020617"/>
+  <rect x="140" y="180" width="1320" height="520" rx="28" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <rect x="220" y="250" width="260" height="160" rx="20" fill="#2563eb"/>
+  <rect x="560" y="250" width="260" height="160" rx="20" fill="#10b981"/>
+  <rect x="910" y="250" width="260" height="160" rx="20" fill="#f59e0b"/>
+  <rect x="250" y="500" width="900" height="120" rx="20" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="260" y="330" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">React Frontend</text>
+  <text x="590" y="330" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">Express API</text>
+  <text x="940" y="330" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">Worker + Scheduler</text>
+  <text x="310" y="570" fill="#f8fafc" font-size="30" font-family="Segoe UI, Arial, sans-serif">Docker Compose deployment with Postgres and Redis</text>
+</svg>

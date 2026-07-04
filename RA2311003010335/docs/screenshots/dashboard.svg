@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#020617"/>
+  <rect x="80" y="80" width="1240" height="740" rx="24" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <rect x="120" y="140" width="260" height="600" rx="18" fill="#111827"/>
+  <rect x="430" y="140" width="820" height="80" rx="18" fill="#111827"/>
+  <rect x="440" y="260" width="180" height="120" rx="18" fill="#1d4ed8"/>
+  <rect x="650" y="260" width="180" height="120" rx="18" fill="#059669"/>
+  <rect x="860" y="260" width="180" height="120" rx="18" fill="#f59e0b"/>
+  <rect x="440" y="420" width="780" height="280" rx="18" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="450" y="320" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">Queues</text>
+  <text x="660" y="320" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">Workers</text>
+  <text x="870" y="320" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">DLQ</text>
+  <text x="460" y="480" fill="#f8fafc" font-size="32" font-family="Segoe UI, Arial, sans-serif">Live operational dashboard</text>
+</svg>

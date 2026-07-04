@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#020617"/>
+  <rect x="160" y="130" width="250" height="100" rx="20" fill="#2563eb"/>
+  <rect x="610" y="130" width="250" height="100" rx="20" fill="#10b981"/>
+  <rect x="1060" y="130" width="250" height="100" rx="20" fill="#f59e0b"/>
+  <line x1="285" y1="230" x2="285" y2="760" stroke="#475569" stroke-width="4"/>
+  <line x1="735" y1="230" x2="735" y2="760" stroke="#475569" stroke-width="4"/>
+  <line x1="1185" y1="230" x2="1185" y2="760" stroke="#475569" stroke-width="4"/>
+  <rect x="300" y="290" width="420" height="60" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="760" y="390" width="400" height="60" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="300" y="490" width="860" height="60" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <text x="180" y="190" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">Client</text>
+  <text x="640" y="190" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">API</text>
+  <text x="1080" y="190" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif">Queue/DB</text>
+  <text x="320" y="330" fill="#f8fafc" font-size="22" font-family="Segoe UI, Arial, sans-serif">Submit job</text>
+  <text x="780" y="430" fill="#f8fafc" font-size="22" font-family="Segoe UI, Arial, sans-serif">Claim with SKIP LOCKED</text>
+  <text x="320" y="530" fill="#f8fafc" font-size="22" font-family="Segoe UI, Arial, sans-serif">Execute + persist status / emit realtime update</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#020617"/>
+  <rect x="80" y="80" width="1240" height="740" rx="24" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <rect x="130" y="150" width="1140" height="80" rx="16" fill="#111827"/>
+  <rect x="130" y="270" width="1140" height="500" rx="24" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <rect x="170" y="320" width="1020" height="60" rx="12" fill="#1f2937"/>
+  <rect x="170" y="400" width="860" height="24" rx="12" fill="#475569"/>
+  <rect x="170" y="450" width="940" height="24" rx="12" fill="#334155"/>
+  <rect x="170" y="500" width="760" height="24" rx="12" fill="#334155"/>
+  <rect x="170" y="550" width="660" height="24" rx="12" fill="#334155"/>
+  <text x="150" y="205" fill="#f8fafc" font-size="34" font-family="Segoe UI, Arial, sans-serif">Job explorer and status workflow</text>
+</svg>
