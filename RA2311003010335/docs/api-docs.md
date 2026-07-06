@@ -5,7 +5,8 @@ All endpoints except `/auth/*` require `Authorization: Bearer <jwt>`.
 All responses are JSON. Errors follow:
 
 ```json
-{ "error": { "code": "SOME_CODE", "message": "human readable", "details": null } }
+{ "error": { "code": "SOME_CODE", "message": "human readable", "details": null }
+ }
 ```
 
 ---
